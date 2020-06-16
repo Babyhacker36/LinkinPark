@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="Louis Carter" content="Linkin Park">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+  <link rel="stylesheet" href="./css/mediaQ.css">
   <!-- google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <!-- font awesome -->
@@ -18,8 +20,8 @@
 <body>
   <!-- hidden navigation -->
   <div id="hidden-navbar">
-    <img src="img/logo.png" alt="linkin_park_logo" id="n-logo">
-    <img src="img/logo4.png" alt="linkin_park_logo" id="n-logo2">
+    <img src="./img/logo.png" alt="linkin_park_logo" id="n-logo">
+    <img src="./img/logo4.png" alt="linkin_park_logo" id="n-logo2">
 
     <ul>
       <li><a href="#home">TOUR DATES</a></li>
@@ -42,10 +44,20 @@
           <li class="link-hover"><a href="#">EVENTS</a></li>
           <li class="link-hover"><a href="#">MEDIA</a></li>
           <li class="link-hover"><a href="#">TOUR DATES</a></li>
+          <li> <audio controls autoplay id="musicPlayer">
+          <source src="../audio/Shadow_Of_The_Day_Lyrics.mp3" type="audio/mpeg">
+        </audio></li>
         </ul>
       </nav>
     </div>
   </section>
+
+<div class="container-fluid" id="containBody">
+
+
+
+
+
 
   <!-- under banner section  -->
   <section class="nav-head">
@@ -98,17 +110,22 @@
 
         <!-- audio element -->
 
-        <audio controls autoplay>
+        <!-- <audio controls autoplay id="musicPlayer">
           <source src="../audio/Shadow_Of_The_Day_Lyrics.mp3" type="audio/mpeg">
-        </audio>
+        </audio> -->
 
       </div>
       <div class="vid-div" id="pic-right">
       </div>
     </section>
+
+</div>
+
+<!-- end of container fluid -->
+
     <footer>
       <div class="footer-left">
-        <img src="img/logo.png" alt="linkin_park_logo">
+        <img src="./img/logo.png" alt="linkin_park_logo">
   </div>
 
         <div class="footer-right">
